@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4097E4;
+    margin: 0;
+    padding: 0;
+}
+/* Estilos del encabezado */
+header {
+    background-color: #50739F; /* Color de fondo */
+    text-align: center; /* Centrar el texto */
+    padding: 20px 0; /* Espaciado interno */
+}
+
+header h1 {
+    color: #fff; /* Color del texto */
+    font-family: Arial, sans-serif; /* Tipo de fuente */
+    font-size: 32px; /* Tamaño de fuente */
+}
+
+/* Estilos del menú */
+nav {
+    background-color: #2c3e50; /* Color azul */
+    text-align: center; /* Centrar los elementos del menú */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Mostrar los elementos del menú en línea */
+    position: relative; /* Establecer posición relativa */
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px 30px; /* Espaciado interno */
+    text-decoration: none;
+    color: #fff; /* Color del texto */
+    font-family: Arial, sans-serif; /* Tipo de fuente */
+    font-size: 18px; /* Tamaño de fuente */
+}
+
+nav ul li a:hover {
+    background-color: #3498db; /* Color azul más claro al pasar el cursor */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+/* Estilos del submenu */
+.submenu {
+    display: none; /* Ocultar el submenu por defecto */
+    position: absolute; /* Establecer posición absoluta */
+    background-color: #2980b9; /* Color del submenu */
+    z-index: 1; /* Asegurar que el submenu esté por encima del contenido */
+}
+
+nav ul li:hover .submenu {
+    display: block; /* Mostrar el submenu al pasar el cursor sobre el elemento principal */
+}
+
+.submenu li {
+    display: block; /* Mostrar elementos del submenu en bloque */
+}
+
+.submenu li a {
+    padding: 10px 20px; /* Espaciado interno del submenu */
+}
+
